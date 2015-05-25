@@ -52,7 +52,7 @@ return [
 	|
 	*/
 
-	'locale' => 'en',
+	'locale' => 'pt-br',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -145,6 +145,14 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+		/*
+		 * Application late added...
+		 */
+		'Illuminate\Html\HtmlServiceProvider',
+		'Laravel\Socialite\SocialiteServiceProvider',
+		'SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider',
+		'Laracasts\Flash\FlashServiceProvider',
+
 	],
 
 	/*
@@ -192,6 +200,13 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+
+		/* Third Party */
+		'Form'		=> 'Illuminate\Html\FormFacade',
+		'Html'		=> 'Illuminate\Html\HtmlFacade',
+		'Socialize' => 'Laravel\Socialite\Facades\Socialite',
+		'Facebook'  => 'SammyK\LaravelFacebookSdk\FacebookFacade',
+		'Flash'		=> 'Laracasts\Flash\Flash'
 
 	],
 

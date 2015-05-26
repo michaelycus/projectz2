@@ -148,8 +148,7 @@ return [
 		/*
 		 * Application late added...
 		 */
-		'Illuminate\Html\HtmlServiceProvider',
-		'Laravel\Socialite\SocialiteServiceProvider',
+		'Illuminate\Html\HtmlServiceProvider',		
 		'SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider',
 		'Laracasts\Flash\FlashServiceProvider',
 
@@ -203,8 +202,7 @@ return [
 
 		/* Third Party */
 		'Form'		=> 'Illuminate\Html\FormFacade',
-		'Html'		=> 'Illuminate\Html\HtmlFacade',
-		'Socialize' => 'Laravel\Socialite\Facades\Socialite',
+		'Html'		=> 'Illuminate\Html\HtmlFacade',		
 		'Facebook'  => 'SammyK\LaravelFacebookSdk\FacebookFacade',
 		'Flash'		=> 'Laracasts\Flash\Flash'
 

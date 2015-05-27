@@ -110,7 +110,7 @@
 					</li>
 
 					<li>
-						<a href="/videos">&nbsp;&nbsp;&nbsp;&nbsp;<i class="menu-icon fa fa-angle-right"></i><span class="mm-text">Todos</span></a>
+						<a href="{{ URL::to('videos') }}">&nbsp;&nbsp;&nbsp;&nbsp;<i class="menu-icon fa fa-angle-right"></i><span class="mm-text">Todos</span></a>
 					</li>
 					<!--
 					<li>
@@ -121,7 +121,7 @@
 						<a href="{{-- URL::route('home') --}}"><i class="menu-icon fa fa-wordpress"></i><span class="mm-text">Artigos</span></a>
 					</li>
 					<li>
-						<a href="/articles">&nbsp;&nbsp;&nbsp;&nbsp;<i class="menu-icon fa fa-angle-right"></i><span class="mm-text">Todos</span></a>
+						<a href="{{ URL::to('articles') }}">&nbsp;&nbsp;&nbsp;&nbsp;<i class="menu-icon fa fa-angle-right"></i><span class="mm-text">Todos</span></a>
 					</li>
 					<!--
 					<li>

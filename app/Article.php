@@ -6,9 +6,9 @@ class Article extends Model {
 
 	protected $fillable = array('title', 'source_url', 'project_url', 'publish_url', 'user_id', 'status');
 
-//    protected $attributes = array(
-//        'status' => 0,
-//    );
+    protected $attributes = array(
+        'status' => 0,
+    );
 
 	public function comments()
     {

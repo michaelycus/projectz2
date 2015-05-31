@@ -14,7 +14,11 @@ use App\Http\Requests\ArticleRequest;
 // TODO - Implementar update: https://laracasts.com/series/laravel-5-fundamentals/episodes/13
 
 
-class ArticleController extends Controller 
+/**
+ * Class ArticleController
+ * @package App\Http\Controllers
+ */
+class ArticleController extends Controller
 {
 
 	/**
@@ -55,13 +59,13 @@ class ArticleController extends Controller
 		return redirect('articles');
 	}
 
-	/**
-	 * Display the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function show(Article $article)
+    /**
+     * Display the specified resource.
+     *
+     * @param Article $article
+     * @return Response
+     */
+    public function show(Article $article)
 	{
 		return view('articles.show',compact('article'));
 	}

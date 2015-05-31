@@ -25,7 +25,7 @@
 						@endif
 					</div>
 					<div class="col-xs-6 text-center">
-						<img src="http://graph.facebook.com/{!! $article->user->facebook_user_id !!}/picture" alt="{{  $article->user->firstname }}" class="user-list pull-right">
+						<img src="http://graph.facebook.com/{!! $article->user->facebook_user_id !!}/picture" alt="{{  $article->user->first_name }}" class="user-list pull-right">
 						
 						<span class="panel-title">{{ $article->user->name }}</span> 
 					</div>
